@@ -1,0 +1,8 @@
+account=an arrangement with a bank to keep your money there and allow you to take it out when you need to.
+air=the mixture of gases that surrounds the Earth and that we breathe.
+amount=a collection or mass, especially of something that cannot be counted.
+animal=something that lives and moves, but is not a human, bird, insect or fish.
+help=to make it possible or easier for someone to do something, by doing part of the work yourself.
+history=(the study or record of) past events considered together, especially events of a particular period, country or subject.
+hole=an empty space in an object, usually with an opening to the object’s surface, or an opening that goes completely through an object.
+name=the word or words that a person, thing or place is known by.

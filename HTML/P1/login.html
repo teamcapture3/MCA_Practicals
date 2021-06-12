@@ -1,0 +1,82 @@
+<html>
+<head>
+<title>Login</title>
+<style type="text/css">
+header {
+    padding: 1em;
+    color: white;
+    background-color: #F44336;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FF5252;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align:center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #757575;
+}
+.singin
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+.reset {
+  background-color: #2196F3;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+</style>
+</head>
+<body>
+    <header>
+ 	   <h1 align="center">Login</h1>
+    </header>
+  <ul>
+		<li><a class="active" href="home.html">Home</a></li>
+	  <li><a href="admission.html">Admissions</a></li>
+	  <li><a href="about.html">About Us</a></li>
+	  <li><a href="login.html">Institute Login</a></li>
+</ul>
+   <p>
+     <form>
+			 <div class="singin">
+		     <label for="uname"><b>Username</b></label>
+		     <input type="text" placeholder="Enter Username" name="uname" required>
+		     <label for="psw"><b>Password</b></label>
+		     <input type="password" placeholder="Enter Password" name="psw" required>
+    <button type="submit"><a href="home.html" style="color:white; text-decoration: none">Login</button>
+		<button type="reset" class="reset">Reset</button>
+	   </div>
+     </form>
+   </p>
+</body>
+</html>
