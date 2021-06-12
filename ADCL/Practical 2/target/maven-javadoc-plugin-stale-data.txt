@@ -1,0 +1,44 @@
+@options
+@packages
+@argfile
+-encoding
+'UTF-8'
+-protected
+-source
+'1.8'
+-sourcepath
+'C:/Users/ninad/Documents/NetBeansProjects/Practical2/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2021. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/ninad/Documents/NetBeansProjects/Practical2/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'Practical2 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' 'C:/Users/ninad/Documents/NetBeansProjects/Practical2/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'Practical2 1.0-SNAPSHOT API'
+Practical2
+'C:/Users/ninad/Documents/NetBeansProjects/Practical2/src/main/java/Practical2/CalcClient.java'
+'C:/Users/ninad/Documents/NetBeansProjects/Practical2/src/main/java/Practical2/CalcServer.java'
+'C:/Users/ninad/Documents/NetBeansProjects/Practical2/src/main/java/Practical2/DateTimeClient.java'
+'C:/Users/ninad/Documents/NetBeansProjects/Practical2/src/main/java/Practical2/DateTimeServer.java'
+C:\Users\ninad\Documents\NetBeansProjects\Practical2\src\main\java = 1627312462434
+C:\Users\ninad\Documents\NetBeansProjects\Practical2\target\site\apidocs\allclasses-frame.html = 1627643281299
+C:\Users\ninad\Documents\NetBeansProjects\Practical2\target\site\apidocs\allclasses-noframe.html = 1627643281341
+C:\Users\ninad\Documents\NetBeansProjects\Practical2\target\site\apidocs\constant-values.html = 1627643280472
+C:\Users\ninad\Documents\NetBeansProjects\Practical2\target\site\apidocs\deprecated-list.html = 1627643281295
+C:\Users\ninad\Documents\NetBeansProjects\Practical2\target\site\apidocs\help-doc.html = 1627643281467
+C:\Users\ninad\Documents\NetBeansProjects\Practical2\target\site\apidocs\index-all.html = 1627643281284
+C:\Users\ninad\Documents\NetBeansProjects\Practical2\target\site\apidocs\index.html = 1627643281343
+C:\Users\ninad\Documents\NetBeansProjects\Practical2\target\site\apidocs\overview-tree.html = 1627643281190
+C:\Users\ninad\Documents\NetBeansProjects\Practical2\target\site\apidocs\package-list = 1627643280271
+C:\Users\ninad\Documents\NetBeansProjects\Practical2\target\site\apidocs\script.js = 1627643281723
+C:\Users\ninad\Documents\NetBeansProjects\Practical2\target\site\apidocs\stylesheet.css = 1627643281722
