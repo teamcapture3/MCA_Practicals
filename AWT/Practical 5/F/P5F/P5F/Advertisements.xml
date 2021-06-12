@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/mcd.jpg</ImageUrl>
+    <NavigateUrl>https://www.pepsi.com/</NavigateUrl>
+    <Impressions>20</Impressions>
+    <Keyword>foods</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/pepsi.jpg</ImageUrl>
+    <NavigateUrl>https://www.pepsi.com/</NavigateUrl>
+    <AlternateText>
+      Order Chilled Pepsi
+    </AlternateText>
+    <Impressions>20</Impressions>
+    <Keyword>softdrink</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/sars.jpg</ImageUrl>
+    <NavigateUrl>https://www.talenthouse.com/</NavigateUrl>
+    <AlternateText>
+      Stay Home Stay Safe
+    </AlternateText>
+    <Impressions>20</Impressions>
+    <Keyword>house</Keyword>
+  </Ad>
+</Advertisements>

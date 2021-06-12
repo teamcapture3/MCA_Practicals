@@ -1,0 +1,8 @@
+c:\users\ninad\documents\visual studio 2010\Projects\WindowsFormsApplication4\WindowsFormsApplication4\bin\Debug\WindowsFormsApplication4.exe
+c:\users\ninad\documents\visual studio 2010\Projects\WindowsFormsApplication4\WindowsFormsApplication4\bin\Debug\WindowsFormsApplication4.pdb
+c:\users\ninad\documents\visual studio 2010\Projects\WindowsFormsApplication4\WindowsFormsApplication4\obj\x86\Debug\fileio.Form1.resources
+c:\users\ninad\documents\visual studio 2010\Projects\WindowsFormsApplication4\WindowsFormsApplication4\obj\x86\Debug\fileio.Properties.Resources.resources
+c:\users\ninad\documents\visual studio 2010\Projects\WindowsFormsApplication4\WindowsFormsApplication4\obj\x86\Debug\WindowsFormsApplication4.csproj.GenerateResource.Cache
+c:\users\ninad\documents\visual studio 2010\Projects\WindowsFormsApplication4\WindowsFormsApplication4\obj\x86\Debug\WindowsFormsApplication4.exe
+c:\users\ninad\documents\visual studio 2010\Projects\WindowsFormsApplication4\WindowsFormsApplication4\obj\x86\Debug\WindowsFormsApplication4.pdb
+C:\Users\ninad\documents\visual studio 2010\Projects\WindowsFormsApplication4\WindowsFormsApplication4\obj\x86\Debug\WindowsFormsApplication4.csprojResolveAssemblyReference.cache

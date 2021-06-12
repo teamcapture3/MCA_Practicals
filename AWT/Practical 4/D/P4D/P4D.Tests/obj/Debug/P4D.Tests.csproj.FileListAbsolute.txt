@@ -1,0 +1,8 @@
+c:\users\ninad\documents\visual studio 2010\Projects\P4D\P4D.Tests\bin\Debug\P4D.Tests.dll.config
+c:\users\ninad\documents\visual studio 2010\Projects\P4D\P4D.Tests\bin\Debug\P4D.Tests.dll
+c:\users\ninad\documents\visual studio 2010\Projects\P4D\P4D.Tests\bin\Debug\P4D.Tests.pdb
+c:\users\ninad\documents\visual studio 2010\Projects\P4D\P4D.Tests\bin\Debug\P4D.dll
+c:\users\ninad\documents\visual studio 2010\Projects\P4D\P4D.Tests\bin\Debug\P4D.pdb
+c:\users\ninad\documents\visual studio 2010\Projects\P4D\P4D.Tests\obj\Debug\P4D.Tests.csprojResolveAssemblyReference.cache
+c:\users\ninad\documents\visual studio 2010\Projects\P4D\P4D.Tests\obj\Debug\P4D.Tests.dll
+c:\users\ninad\documents\visual studio 2010\Projects\P4D\P4D.Tests\obj\Debug\P4D.Tests.pdb

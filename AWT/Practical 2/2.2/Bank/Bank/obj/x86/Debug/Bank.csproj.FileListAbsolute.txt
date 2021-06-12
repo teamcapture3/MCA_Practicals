@@ -1,0 +1,15 @@
+c:\users\amitv\documents\visual studio 2010\Projects\Bank\Bank\bin\Debug\Bank.exe
+c:\users\amitv\documents\visual studio 2010\Projects\Bank\Bank\bin\Debug\Bank.pdb
+c:\users\amitv\documents\visual studio 2010\Projects\Bank\Bank\obj\x86\Debug\Bank.Properties.Resources.resources
+c:\users\amitv\documents\visual studio 2010\Projects\Bank\Bank\obj\x86\Debug\Bank.csproj.GenerateResource.Cache
+c:\users\amitv\documents\visual studio 2010\Projects\Bank\Bank\obj\x86\Debug\Bank.exe
+c:\users\amitv\documents\visual studio 2010\Projects\Bank\Bank\obj\x86\Debug\Bank.pdb
+c:\users\amitv\documents\visual studio 2010\Projects\Bank\Bank\obj\x86\Debug\Bank.Form1.resources
+C:\Users\ninad\Documents\Visual Studio 2010\Projects\Bank\Bank\obj\x86\Debug\Bank.exe
+C:\Users\ninad\Documents\Visual Studio 2010\Projects\Bank\Bank\obj\x86\Debug\Bank.pdb
+C:\Users\ninad\Documents\Visual Studio 2010\Projects\Bank\Bank\bin\Debug\Bank.exe
+C:\Users\ninad\Documents\Visual Studio 2010\Projects\Bank\Bank\bin\Debug\Bank.pdb
+C:\Users\ninad\Documents\Visual Studio 2010\Projects\Bank\Bank\obj\x86\Debug\Bank.Form1.resources
+C:\Users\ninad\Documents\Visual Studio 2010\Projects\Bank\Bank\obj\x86\Debug\Bank.Properties.Resources.resources
+C:\Users\ninad\Documents\Visual Studio 2010\Projects\Bank\Bank\obj\x86\Debug\Bank.csproj.GenerateResource.Cache
+C:\Users\ninad\Documents\Visual Studio 2010\Projects\Bank\Bank\obj\x86\Debug\Bank.csprojResolveAssemblyReference.cache

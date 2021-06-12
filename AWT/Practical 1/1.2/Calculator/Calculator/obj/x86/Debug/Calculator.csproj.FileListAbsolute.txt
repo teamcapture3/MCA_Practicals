@@ -1,0 +1,7 @@
+C:\Users\Ninad\Documents\Visual Studio 2010\Projects\Calculator\Calculator\obj\x86\Debug\calcu.exe
+C:\Users\Ninad\Documents\Visual Studio 2010\Projects\Calculator\Calculator\obj\x86\Debug\calcu.pdb
+C:\Users\Ninad\Documents\Visual Studio 2010\Projects\Calculator\Calculator\bin\Debug\calcu.exe
+C:\Users\Ninad\Documents\Visual Studio 2010\Projects\Calculator\Calculator\bin\Debug\calcu.pdb
+C:\Users\Ninad\Documents\Visual Studio 2010\Projects\Calculator\Calculator\obj\x86\Debug\Calculator.csproj.GenerateResource.Cache
+C:\Users\Ninad\Documents\Visual Studio 2010\Projects\Calculator\Calculator\obj\x86\Debug\Calculator.Properties.Resources.resources
+C:\Users\Ninad\Documents\Visual Studio 2010\Projects\Calculator\Calculator\obj\x86\Debug\Calculator.Form1.resources

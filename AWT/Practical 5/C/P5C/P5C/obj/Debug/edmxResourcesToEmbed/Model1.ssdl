@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="studentModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="studentModelStoreContainer">
+    <EntitySet Name="Book" EntityType="studentModel.Store.Book" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="Book">
+    <Key>
+      <PropertyRef Name="SerialId" />
+    </Key>
+    <Property Name="SerialId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="BookID" Type="nvarchar" MaxLength="50" />
+    <Property Name="BookName" Type="nvarchar" MaxLength="50" />
+    <Property Name="AuthorName" Type="nvarchar" MaxLength="50" />
+    <Property Name="BookPrice" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+</Schema>

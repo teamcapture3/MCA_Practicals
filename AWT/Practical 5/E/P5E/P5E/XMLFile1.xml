@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/b1.png</ImageUrl>
+    <NavigationUrl>https://www.google.com/</NavigationUrl>
+    <AlternateText>pic1</AlternateText>
+    <Impressions>20</Impressions>
+    <keyword>small</keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/b2.png</ImageUrl>
+    <NavigationUrl>https://www.google.com/</NavigationUrl>
+    <AlternateText>pic2</AlternateText>
+    <Impressions>20</Impressions>
+    <keyword>small</keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/b3.png</ImageUrl>
+    <NavigationUrl>https://www.google.com/</NavigationUrl>
+    <AlternateText>pic3</AlternateText>
+    <Impressions>20</Impressions>
+    <keyword>small</keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/b4.png</ImageUrl>
+    <NavigationUrl>https://www.google.com/</NavigationUrl>
+    <AlternateText>pic4</AlternateText>
+    <Impressions>20</Impressions>
+    <keyword>small</keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/b5.png</ImageUrl>
+    <NavigationUrl>https://www.google.com/</NavigationUrl>
+    <AlternateText>pic5</AlternateText>
+    <Impressions>20</Impressions>
+    <keyword>small</keyword>
+  </Ad>
+</Advertisements>

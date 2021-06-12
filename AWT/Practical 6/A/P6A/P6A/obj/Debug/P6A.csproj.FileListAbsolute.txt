@@ -1,0 +1,4 @@
+C:\Users\ninad\Documents\Visual Studio 2010\Projects\P6A\P6A\bin\P6A.dll
+C:\Users\ninad\Documents\Visual Studio 2010\Projects\P6A\P6A\bin\P6A.pdb
+C:\Users\ninad\Documents\Visual Studio 2010\Projects\P6A\P6A\obj\Debug\P6A.dll
+C:\Users\ninad\Documents\Visual Studio 2010\Projects\P6A\P6A\obj\Debug\P6A.pdb

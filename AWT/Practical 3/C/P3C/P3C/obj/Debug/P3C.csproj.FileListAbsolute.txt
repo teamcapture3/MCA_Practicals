@@ -1,0 +1,4 @@
+c:\users\ninad\documents\visual studio 2010\Projects\P3C\P3C\bin\P3C.dll
+c:\users\ninad\documents\visual studio 2010\Projects\P3C\P3C\bin\P3C.pdb
+c:\users\ninad\documents\visual studio 2010\Projects\P3C\P3C\obj\Debug\P3C.dll
+c:\users\ninad\documents\visual studio 2010\Projects\P3C\P3C\obj\Debug\P3C.pdb

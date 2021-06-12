@@ -1,0 +1,7 @@
+c:\users\ninad\documents\visual studio 2010\Projects\Pract3(A).3\Pract3(A).3\obj\x86\Debug\serialize.Form1.resources
+c:\users\ninad\documents\visual studio 2010\Projects\Pract3(A).3\Pract3(A).3\obj\x86\Debug\Pract3_A_._3.Properties.Resources.resources
+c:\users\ninad\documents\visual studio 2010\Projects\Pract3(A).3\Pract3(A).3\obj\x86\Debug\Pract3(A).3.csproj.GenerateResource.Cache
+c:\users\ninad\documents\visual studio 2010\Projects\Pract3(A).3\Pract3(A).3\bin\Debug\Pract3(A).3.exe
+c:\users\ninad\documents\visual studio 2010\Projects\Pract3(A).3\Pract3(A).3\bin\Debug\Pract3(A).3.pdb
+c:\users\ninad\documents\visual studio 2010\Projects\Pract3(A).3\Pract3(A).3\obj\x86\Debug\Pract3(A).3.exe
+c:\users\ninad\documents\visual studio 2010\Projects\Pract3(A).3\Pract3(A).3\obj\x86\Debug\Pract3(A).3.pdb

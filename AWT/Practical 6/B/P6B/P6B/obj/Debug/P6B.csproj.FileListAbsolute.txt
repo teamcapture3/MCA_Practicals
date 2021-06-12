@@ -1,0 +1,4 @@
+c:\users\ninad\documents\visual studio 2010\Projects\P6B\P6B\bin\P6B.dll
+c:\users\ninad\documents\visual studio 2010\Projects\P6B\P6B\bin\P6B.pdb
+c:\users\ninad\documents\visual studio 2010\Projects\P6B\P6B\obj\Debug\P6B.dll
+c:\users\ninad\documents\visual studio 2010\Projects\P6B\P6B\obj\Debug\P6B.pdb

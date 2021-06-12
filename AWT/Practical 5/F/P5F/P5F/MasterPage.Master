@@ -1,0 +1,90 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="P5F.MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+<title>VESIT</title>
+<asp:ContentPlaceHolder ID="head" runat="server">
+</asp:ContentPlaceHolder>
+<style type="text/css">
+.header
+{
+    height:53px;
+    font-size:xx-large;
+    text-align:center;
+    padding:5px;
+    background-color: #204a84;
+    color: #FFFFFF;
+}
+.main
+{
+    width:auto;
+    height:510px;
+    padding:5px;
+}
+.left
+{
+    float:left;
+    padding:5px;
+    width:200px;
+    height:510px;
+    font-size:x-large;
+    text-align:left;
+}
+.right
+{
+    float:right;
+    padding:5px;
+    width:200px;
+    height:510px;
+    font-size:x-large;
+}
+.footer
+{
+    height:53px;
+    text-align:center;
+    padding:5px;
+}
+</style>
+</head>
+<body>
+<form id="form1" runat="server">
+<div id="container">
+<div class="header" align="center">
+Welcome To Vivekanand Education Society's Institute Of Technology
+</div>
+<div class="left">
+<div id="menu">
+<asp:BulletedList ID="blstSample" runat="server" DisplayMode="HyperLink">
+<asp:ListItem Value="Home.aspx">
+Home
+</asp:ListItem>
+ <asp:ListItem Value="AboutUs.aspx">
+About Us
+</asp:ListItem>
+<asp:ListItem Value="Contact.aspx">
+Contact Us
+</asp:ListItem>
+</asp:BulletedList>
+</div>
+</div>
+<div class="right">
+<asp:ContentPlaceHolder ID="sideContent" runat="server">
+<p>default side content</p>
+</asp:ContentPlaceHolder>
+</div>
+<div class="main">
+<asp:ContentPlaceHolder ID="mainContent" runat="server">
+<p>default main content</p>
+</asp:ContentPlaceHolder>
+</div>
+<div class="footer" align="center">
+<p>
+&copy; 2021 All Rights Reserved
+</p>
+</div>
+</div>
+</form>
+</body>
+</html>

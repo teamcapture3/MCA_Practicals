@@ -1,0 +1,12 @@
+A file is a collection of data stored in a disk with a specific name and a directory path.
+When a file is opened for reading or writing, it becomes a stream.
+The stream is basically the sequence of bytes passing through the communication path. There are two main streams: 
+the input stream and the output stream
+The input stream is used for reading data from file (read operation) and the output stream is used for writing into the file (write operation).
+The System.IO namespace has various classes that are used for performing numerous operations with files, such as creating and deleting files, reading from or writing to a file, closing a file etc.
+The FileStream class in the System.IO namespace helps in reading from, writing to and closing files. This class derives from the abstract class Stream.
+You need to create a FileStream object to create a new file or open an existing file.
+The StreamReader and StreamWriter classes are used for reading from and writing data to text files.
+These classes inherit from the abstract base class Stream, which supports reading and writing bytes into a file stream.
+The StreamReader class also inherits from the abstract base class TextReader that represents a reader for reading series of characters.
+The StreamWriter class inherits from the abstract class TextWriter that represents a writer, which can write a series of character.

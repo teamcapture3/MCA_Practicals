@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="employee" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=NINAD\SQLEXPRESS;Initial Catalog=employee;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="employeeConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.EMP" Member="EMPs">
+    <Type Name="EMP">
+      <Column Name="EmpNo" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="EmpName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="EmpSal" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="EmpJob" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="EmpDeptNo" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

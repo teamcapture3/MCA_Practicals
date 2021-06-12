@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a34d08d9-fe79-42c6-8faa-574bdf5696c1" name="ninad@NINAD 2021-04-14 12:25:31" runUser="NINAD\ninad" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="b52a6771-b14e-4d8b-900f-34aea1d26fe7">
+    <Deployment runDeploymentRoot="ninad_NINAD 2021-04-14 12_25_31">
+      <DeploymentItem filename="c:\users\ninad\documents\visual studio 2010\Projects\P4D\P4D\bin\P4D.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2021-04-14T12:25:31.0716814+05:30" queuing="2021-04-14T12:25:33.1941119+05:30" start="2021-04-14T12:25:33.2441230+05:30" finish="2021-04-14T12:25:34.5792545+05:30" />
+  <ResultSummary outcome="Completed">
+    <Counters total="17" executed="17" passed="17" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Index" storage="c:\users\ninad\documents\visual studio 2010\projects\p4d\p4d.tests\bin\debug\p4d.tests.dll" id="58e7c9a7-9e0e-c1e0-ddc8-396d32551188">
+      <Execution id="5f3415e2-43bb-4f73-bfb2-49649553c06e" />
+      <TestMethod codeBase="c:/users/ninad/documents/visual studio 2010/Projects/P4D/P4D.Tests/bin/Debug/P4D.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="P4D.Tests.Controllers.HomeControllerTest, P4D.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsViewIfValidateUserFails" storage="c:\users\ninad\documents\visual studio 2010\projects\p4d\p4d.tests\bin\debug\p4d.tests.dll" id="39780822-af87-7bee-205f-1aebe6ec1985">
+      <Execution id="ff9161a7-53d5-407d-956f-a56be8bf95f3" />
+      <TestMethod codeBase="c:/users/ninad/documents/visual studio 2010/Projects/P4D/P4D.Tests/bin/Debug/P4D.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="P4D.Tests.Controllers.AccountControllerTest, P4D.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsViewIfValidateUserFails" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Post_ReturnsRedirectOnSuccess" storage="c:\users\ninad\documents\visual studio 2010\projects\p4d\p4d.tests\bin\debug\p4d.tests.dll" id="00546730-1a95-ce34-8b70-fb270ab3b8c2">
+      <Execution id="3f1cfba5-23ec-46d8-b715-df95ecfdf980" />
+      <TestMethod codeBase="c:/users/ninad/documents/visual studio 2010/Projects/P4D/P4D.Tests/bin/Debug/P4D.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="P4D.Tests.Controllers.AccountControllerTest, P4D.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Post_ReturnsRedirectOnSuccess" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsRedirectOnSuccess_WithReturnUrl" storage="c:\users\ninad\documents\visual studio 2010\projects\p4d\p4d.tests\bin\debug\p4d.tests.dll" id="7e3679cc-c13f-09ca-eb7d-a13f21abf559">
+      <Execution id="832ba494-2be8-422f-8e85-85b2bf5af993" />
+      <TestMethod codeBase="c:/users/ninad/documents/visual studio 2010/Projects/P4D/P4D.Tests/bin/Debug/P4D.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="P4D.Tests.Controllers.AccountControllerTest, P4D.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsRedirectOnSuccess_WithReturnUrl" />
+    </UnitTest>
+    <UnitTest name="LogOn_Get_ReturnsView" storage="c:\users\ninad\documents\visual studio 2010\projects\p4d\p4d.tests\bin\debug\p4d.tests.dll" id="22613e95-ad5c-febd-1d57-21543e05b0db">
+      <Execution id="ab1036dd-20c8-4910-932e-ed6e1f3eb876" />
+      <TestMethod codeBase="c:/users/ninad/documents/visual studio 2010/Projects/P4D/P4D.Tests/bin/Debug/P4D.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="P4D.Tests.Controllers.AccountControllerTest, P4D.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Get_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="LogOff_LogsOutAndRedirects" storage="c:\users\ninad\documents\visual studio 2010\projects\p4d\p4d.tests\bin\debug\p4d.tests.dll" id="424908f5-602f-536f-a3d3-b8a5cee09b7c">
+      <Execution id="8c5f4cfb-1b55-423b-a2d6-dad1cae1b564" />
+      <TestMethod codeBase="c:/users/ninad/documents/visual studio 2010/Projects/P4D/P4D.Tests/bin/Debug/P4D.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="P4D.Tests.Controllers.AccountControllerTest, P4D.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOff_LogsOutAndRedirects" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Post_ReturnsViewIfChangePasswordFails" storage="c:\users\ninad\documents\visual studio 2010\projects\p4d\p4d.tests\bin\debug\p4d.tests.dll" id="754d9758-dbe1-2f6d-5b99-320a7bfa5065">
+      <Execution id="7b763bff-5d81-4c59-a2e5-73a31f51c0de" />
+      <TestMethod codeBase="c:/users/ninad/documents/visual studio 2010/Projects/P4D/P4D.Tests/bin/Debug/P4D.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="P4D.Tests.Controllers.AccountControllerTest, P4D.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Post_ReturnsViewIfChangePasswordFails" />
+    </UnitTest>
+    <UnitTest name="Register_Get_ReturnsView" storage="c:\users\ninad\documents\visual studio 2010\projects\p4d\p4d.tests\bin\debug\p4d.tests.dll" id="61853a13-518d-bb55-40e6-3b3c5426466c">
+      <Execution id="642ded25-4304-4fee-864c-ce00d6cfe735" />
+      <TestMethod codeBase="c:/users/ninad/documents/visual studio 2010/Projects/P4D/P4D.Tests/bin/Debug/P4D.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="P4D.Tests.Controllers.AccountControllerTest, P4D.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Get_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Get_ReturnsView" storage="c:\users\ninad\documents\visual studio 2010\projects\p4d\p4d.tests\bin\debug\p4d.tests.dll" id="43605179-2b09-b628-1a81-00d5b114d0f8">
+      <Execution id="1a1696a0-206e-46b5-8d72-3609da843ab3" />
+      <TestMethod codeBase="c:/users/ninad/documents/visual studio 2010/Projects/P4D/P4D.Tests/bin/Debug/P4D.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="P4D.Tests.Controllers.AccountControllerTest, P4D.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Get_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsRedirectOnSuccess_WithoutReturnUrl" storage="c:\users\ninad\documents\visual studio 2010\projects\p4d\p4d.tests\bin\debug\p4d.tests.dll" id="79a4179b-305c-8a12-7dda-7f4b7dbf7517">
+      <Execution id="edaa5d05-c517-4e0a-a023-d60618ae2ece" />
+      <TestMethod codeBase="c:/users/ninad/documents/visual studio 2010/Projects/P4D/P4D.Tests/bin/Debug/P4D.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="P4D.Tests.Controllers.AccountControllerTest, P4D.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsRedirectOnSuccess_WithoutReturnUrl" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsViewIfModelStateIsInvalid" storage="c:\users\ninad\documents\visual studio 2010\projects\p4d\p4d.tests\bin\debug\p4d.tests.dll" id="e47f69a3-02be-1498-0a52-52593a1b2d98">
+      <Execution id="7a97206a-e62b-4bb1-bf94-c78eb1f70829" />
+      <TestMethod codeBase="c:/users/ninad/documents/visual studio 2010/Projects/P4D/P4D.Tests/bin/Debug/P4D.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="P4D.Tests.Controllers.AccountControllerTest, P4D.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsViewIfModelStateIsInvalid" />
+    </UnitTest>
+    <UnitTest name="Register_Post_ReturnsViewIfModelStateIsInvalid" storage="c:\users\ninad\documents\visual studio 2010\projects\p4d\p4d.tests\bin\debug\p4d.tests.dll" id="8a4bd416-26d3-6955-432e-d884edd04f11">
+      <Execution id="6ed9dabc-5659-4702-bf46-1a7587ebe9e3" />
+      <TestMethod codeBase="c:/users/ninad/documents/visual studio 2010/Projects/P4D/P4D.Tests/bin/Debug/P4D.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="P4D.Tests.Controllers.AccountControllerTest, P4D.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Post_ReturnsViewIfModelStateIsInvalid" />
+    </UnitTest>
+    <UnitTest name="About" storage="c:\users\ninad\documents\visual studio 2010\projects\p4d\p4d.tests\bin\debug\p4d.tests.dll" id="731a4a98-344f-3574-ab15-6a798aa3c39f">
+      <Execution id="12a4bab5-f0bc-4f24-9908-7173d64f268f" />
+      <TestMethod codeBase="c:/users/ninad/documents/visual studio 2010/Projects/P4D/P4D.Tests/bin/Debug/P4D.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="P4D.Tests.Controllers.HomeControllerTest, P4D.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="About" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Post_ReturnsViewIfModelStateIsInvalid" storage="c:\users\ninad\documents\visual studio 2010\projects\p4d\p4d.tests\bin\debug\p4d.tests.dll" id="c6f7c5c4-9d36-9d19-f2e0-fd2919b54a90">
+      <Execution id="96d58677-55d9-42c5-b54e-5b90b1633fec" />
+      <TestMethod codeBase="c:/users/ninad/documents/visual studio 2010/Projects/P4D/P4D.Tests/bin/Debug/P4D.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="P4D.Tests.Controllers.AccountControllerTest, P4D.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Post_ReturnsViewIfModelStateIsInvalid" />
+    </UnitTest>
+    <UnitTest name="ChangePasswordSuccess_ReturnsView" storage="c:\users\ninad\documents\visual studio 2010\projects\p4d\p4d.tests\bin\debug\p4d.tests.dll" id="7c738965-33c3-14d9-d078-45c626c03b78">
+      <Execution id="f89d745c-938b-4b47-800c-a19967f2af96" />
+      <TestMethod codeBase="c:/users/ninad/documents/visual studio 2010/Projects/P4D/P4D.Tests/bin/Debug/P4D.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="P4D.Tests.Controllers.AccountControllerTest, P4D.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePasswordSuccess_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="Register_Post_ReturnsRedirectOnSuccess" storage="c:\users\ninad\documents\visual studio 2010\projects\p4d\p4d.tests\bin\debug\p4d.tests.dll" id="82c42346-0286-a53e-1467-d311ab9b9307">
+      <Execution id="0c0f30f9-7b81-431e-b202-fc8a2e091656" />
+      <TestMethod codeBase="c:/users/ninad/documents/visual studio 2010/Projects/P4D/P4D.Tests/bin/Debug/P4D.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="P4D.Tests.Controllers.AccountControllerTest, P4D.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Post_ReturnsRedirectOnSuccess" />
+    </UnitTest>
+    <UnitTest name="Register_Post_ReturnsViewIfRegistrationFails" storage="c:\users\ninad\documents\visual studio 2010\projects\p4d\p4d.tests\bin\debug\p4d.tests.dll" id="9b083dc6-93b3-46f6-285b-754bfc2cd10f">
+      <Execution id="f3979a51-48be-4a17-a6a9-9065b316dcaf" />
+      <TestMethod codeBase="c:/users/ninad/documents/visual studio 2010/Projects/P4D/P4D.Tests/bin/Debug/P4D.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="P4D.Tests.Controllers.AccountControllerTest, P4D.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Post_ReturnsViewIfRegistrationFails" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="43605179-2b09-b628-1a81-00d5b114d0f8" executionId="1a1696a0-206e-46b5-8d72-3609da843ab3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="00546730-1a95-ce34-8b70-fb270ab3b8c2" executionId="3f1cfba5-23ec-46d8-b715-df95ecfdf980" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="754d9758-dbe1-2f6d-5b99-320a7bfa5065" executionId="7b763bff-5d81-4c59-a2e5-73a31f51c0de" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c6f7c5c4-9d36-9d19-f2e0-fd2919b54a90" executionId="96d58677-55d9-42c5-b54e-5b90b1633fec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7c738965-33c3-14d9-d078-45c626c03b78" executionId="f89d745c-938b-4b47-800c-a19967f2af96" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="424908f5-602f-536f-a3d3-b8a5cee09b7c" executionId="8c5f4cfb-1b55-423b-a2d6-dad1cae1b564" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="22613e95-ad5c-febd-1d57-21543e05b0db" executionId="ab1036dd-20c8-4910-932e-ed6e1f3eb876" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="79a4179b-305c-8a12-7dda-7f4b7dbf7517" executionId="edaa5d05-c517-4e0a-a023-d60618ae2ece" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7e3679cc-c13f-09ca-eb7d-a13f21abf559" executionId="832ba494-2be8-422f-8e85-85b2bf5af993" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e47f69a3-02be-1498-0a52-52593a1b2d98" executionId="7a97206a-e62b-4bb1-bf94-c78eb1f70829" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="39780822-af87-7bee-205f-1aebe6ec1985" executionId="ff9161a7-53d5-407d-956f-a56be8bf95f3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="61853a13-518d-bb55-40e6-3b3c5426466c" executionId="642ded25-4304-4fee-864c-ce00d6cfe735" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="82c42346-0286-a53e-1467-d311ab9b9307" executionId="0c0f30f9-7b81-431e-b202-fc8a2e091656" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9b083dc6-93b3-46f6-285b-754bfc2cd10f" executionId="f3979a51-48be-4a17-a6a9-9065b316dcaf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8a4bd416-26d3-6955-432e-d884edd04f11" executionId="6ed9dabc-5659-4702-bf46-1a7587ebe9e3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="58e7c9a7-9e0e-c1e0-ddc8-396d32551188" executionId="5f3415e2-43bb-4f73-bfb2-49649553c06e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="731a4a98-344f-3574-ab15-6a798aa3c39f" executionId="12a4bab5-f0bc-4f24-9908-7173d64f268f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1a1696a0-206e-46b5-8d72-3609da843ab3" testId="43605179-2b09-b628-1a81-00d5b114d0f8" testName="ChangePassword_Get_ReturnsView" computerName="NINAD" duration="00:00:00.0735028" startTime="2021-04-14T12:25:33.3555196+05:30" endTime="2021-04-14T12:25:34.2147699+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1a1696a0-206e-46b5-8d72-3609da843ab3">
+    </UnitTestResult>
+    <UnitTestResult executionId="3f1cfba5-23ec-46d8-b715-df95ecfdf980" testId="00546730-1a95-ce34-8b70-fb270ab3b8c2" testName="ChangePassword_Post_ReturnsRedirectOnSuccess" computerName="NINAD" duration="00:00:00.0634074" startTime="2021-04-14T12:25:34.2537132+05:30" endTime="2021-04-14T12:25:34.3224020+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3f1cfba5-23ec-46d8-b715-df95ecfdf980">
+    </UnitTestResult>
+    <UnitTestResult executionId="7b763bff-5d81-4c59-a2e5-73a31f51c0de" testId="754d9758-dbe1-2f6d-5b99-320a7bfa5065" testName="ChangePassword_Post_ReturnsViewIfChangePasswordFails" computerName="NINAD" duration="00:00:00.0017595" startTime="2021-04-14T12:25:34.3290312+05:30" endTime="2021-04-14T12:25:34.3350457+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7b763bff-5d81-4c59-a2e5-73a31f51c0de">
+    </UnitTestResult>
+    <UnitTestResult executionId="96d58677-55d9-42c5-b54e-5b90b1633fec" testId="c6f7c5c4-9d36-9d19-f2e0-fd2919b54a90" testName="ChangePassword_Post_ReturnsViewIfModelStateIsInvalid" computerName="NINAD" duration="00:00:00.0004016" startTime="2021-04-14T12:25:34.3402549+05:30" endTime="2021-04-14T12:25:34.3452560+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="96d58677-55d9-42c5-b54e-5b90b1633fec">
+    </UnitTestResult>
+    <UnitTestResult executionId="f89d745c-938b-4b47-800c-a19967f2af96" testId="7c738965-33c3-14d9-d078-45c626c03b78" testName="ChangePasswordSuccess_ReturnsView" computerName="NINAD" duration="00:00:00.0002794" startTime="2021-04-14T12:25:34.3502560+05:30" endTime="2021-04-14T12:25:34.3552562+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f89d745c-938b-4b47-800c-a19967f2af96">
+    </UnitTestResult>
+    <UnitTestResult executionId="8c5f4cfb-1b55-423b-a2d6-dad1cae1b564" testId="424908f5-602f-536f-a3d3-b8a5cee09b7c" testName="LogOff_LogsOutAndRedirects" computerName="NINAD" duration="00:00:00.0006780" startTime="2021-04-14T12:25:34.3602561+05:30" endTime="2021-04-14T12:25:34.3652561+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8c5f4cfb-1b55-423b-a2d6-dad1cae1b564">
+    </UnitTestResult>
+    <UnitTestResult executionId="ab1036dd-20c8-4910-932e-ed6e1f3eb876" testId="22613e95-ad5c-febd-1d57-21543e05b0db" testName="LogOn_Get_ReturnsView" computerName="NINAD" duration="00:00:00.0002870" startTime="2021-04-14T12:25:34.3712551+05:30" endTime="2021-04-14T12:25:34.3752571+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ab1036dd-20c8-4910-932e-ed6e1f3eb876">
+    </UnitTestResult>
+    <UnitTestResult executionId="edaa5d05-c517-4e0a-a023-d60618ae2ece" testId="79a4179b-305c-8a12-7dda-7f4b7dbf7517" testName="LogOn_Post_ReturnsRedirectOnSuccess_WithoutReturnUrl" computerName="NINAD" duration="00:00:00.0013209" startTime="2021-04-14T12:25:34.3802567+05:30" endTime="2021-04-14T12:25:34.3862554+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="edaa5d05-c517-4e0a-a023-d60618ae2ece">
+    </UnitTestResult>
+    <UnitTestResult executionId="832ba494-2be8-422f-8e85-85b2bf5af993" testId="7e3679cc-c13f-09ca-eb7d-a13f21abf559" testName="LogOn_Post_ReturnsRedirectOnSuccess_WithReturnUrl" computerName="NINAD" duration="00:00:00.0008199" startTime="2021-04-14T12:25:34.3922547+05:30" endTime="2021-04-14T12:25:34.3972565+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="832ba494-2be8-422f-8e85-85b2bf5af993">
+    </UnitTestResult>
+    <UnitTestResult executionId="7a97206a-e62b-4bb1-bf94-c78eb1f70829" testId="e47f69a3-02be-1498-0a52-52593a1b2d98" testName="LogOn_Post_ReturnsViewIfModelStateIsInvalid" computerName="NINAD" duration="00:00:00.0002651" startTime="2021-04-14T12:25:34.4022574+05:30" endTime="2021-04-14T12:25:34.4062554+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7a97206a-e62b-4bb1-bf94-c78eb1f70829">
+    </UnitTestResult>
+    <UnitTestResult executionId="ff9161a7-53d5-407d-956f-a56be8bf95f3" testId="39780822-af87-7bee-205f-1aebe6ec1985" testName="LogOn_Post_ReturnsViewIfValidateUserFails" computerName="NINAD" duration="00:00:00.0003213" startTime="2021-04-14T12:25:34.4112568+05:30" endTime="2021-04-14T12:25:34.4152538+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ff9161a7-53d5-407d-956f-a56be8bf95f3">
+    </UnitTestResult>
+    <UnitTestResult executionId="642ded25-4304-4fee-864c-ce00d6cfe735" testId="61853a13-518d-bb55-40e6-3b3c5426466c" testName="Register_Get_ReturnsView" computerName="NINAD" duration="00:00:00.0003573" startTime="2021-04-14T12:25:34.4202565+05:30" endTime="2021-04-14T12:25:34.4242533+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="642ded25-4304-4fee-864c-ce00d6cfe735">
+    </UnitTestResult>
+    <UnitTestResult executionId="0c0f30f9-7b81-431e-b202-fc8a2e091656" testId="82c42346-0286-a53e-1467-d311ab9b9307" testName="Register_Post_ReturnsRedirectOnSuccess" computerName="NINAD" duration="00:00:00.0069692" startTime="2021-04-14T12:25:34.4282558+05:30" endTime="2021-04-14T12:25:34.4392562+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0c0f30f9-7b81-431e-b202-fc8a2e091656">
+    </UnitTestResult>
+    <UnitTestResult executionId="f3979a51-48be-4a17-a6a9-9065b316dcaf" testId="9b083dc6-93b3-46f6-285b-754bfc2cd10f" testName="Register_Post_ReturnsViewIfRegistrationFails" computerName="NINAD" duration="00:00:00.0004770" startTime="2021-04-14T12:25:34.4432548+05:30" endTime="2021-04-14T12:25:34.4472532+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f3979a51-48be-4a17-a6a9-9065b316dcaf">
+    </UnitTestResult>
+    <UnitTestResult executionId="6ed9dabc-5659-4702-bf46-1a7587ebe9e3" testId="8a4bd416-26d3-6955-432e-d884edd04f11" testName="Register_Post_ReturnsViewIfModelStateIsInvalid" computerName="NINAD" duration="00:00:00.0003107" startTime="2021-04-14T12:25:34.4522555+05:30" endTime="2021-04-14T12:25:34.4562534+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6ed9dabc-5659-4702-bf46-1a7587ebe9e3">
+    </UnitTestResult>
+    <UnitTestResult executionId="5f3415e2-43bb-4f73-bfb2-49649553c06e" testId="58e7c9a7-9e0e-c1e0-ddc8-396d32551188" testName="Index" computerName="NINAD" duration="00:00:00.0005281" startTime="2021-04-14T12:25:34.4602548+05:30" endTime="2021-04-14T12:25:34.4642535+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5f3415e2-43bb-4f73-bfb2-49649553c06e">
+    </UnitTestResult>
+    <UnitTestResult executionId="12a4bab5-f0bc-4f24-9908-7173d64f268f" testId="731a4a98-344f-3574-ab15-6a798aa3c39f" testName="About" computerName="NINAD" duration="00:00:00.0002496" startTime="2021-04-14T12:25:34.4692544+05:30" endTime="2021-04-14T12:25:34.4732535+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="12a4bab5-f0bc-4f24-9908-7173d64f268f">
+    </UnitTestResult>
+  </Results>
+</TestRun>
