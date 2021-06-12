@@ -1,0 +1,60 @@
+<html>
+<head>
+<script>
+function val()
+{
+	var name=document.getElementById("fname").value;
+	var lname=document.getElementById("lname").value;
+	var address=document.getElementById("address").value;
+	var email=document.getElementById("email").value;
+	var password=document.getElementById("password").value;
+	var cpassword=document.getElementById("cpassword").value;
+	if(name=="")
+	{
+		window.alert("First name cannot be empty");
+	}
+	if(lname=="")
+	{
+		window.alert("Last name cannot be empty");
+	}
+	if(address=="")
+	{
+		window.alert("Address cannot be empty");
+	}
+	if(email=="")
+	{
+		window.alert("Email cannot be empty");
+	}
+	if(email.indexOf("@")<1 || email.lastIndexOf(".")<email.indexOf("@")+2 || email.lastIndexOf(".")+2>=email.length)
+	{
+		window.alert("It is not a valid email");
+	}
+	if(password=="")
+	{
+		window.alert("Pasword cannot be empty");
+	}
+	if(cpassword=="")
+	{
+		window.alert("Confirm password should be same as that of password");
+	}
+}
+</script>
+</head>
+<body>
+	<form>
+		First Name: 
+		<input type="text" id="fname"></br></br>
+		Last Name: 
+		<input type="text" id="lname"></br></br>
+		Address: 
+		<textarea id="address" rows="4" cols="50"></textarea></br></br>
+		Email: 
+		<input type="text" id="email"></br></br>
+		Password: 
+		<input type="password" id="password"></br></br>
+		Confirm Password: 
+		<input type="password" id="cpassword"></br></br>
+		<input type="submit" name="submit" onclick="val()" value="Submit"></br></br>
+	</form>
+</body>
+</html>

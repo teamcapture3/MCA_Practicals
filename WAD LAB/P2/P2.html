@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!-- saved from url=(0059)file:///C:/Users/ninad/Downloads/Calculator%20-%20Copy.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+ 	<script type="text/javascript">
+ 		function cal() {
+ 			// body...
+ 			var str1=document.getElementById('str1').value;
+ 			var str2=document.getElementById('str2').value;
+ 			var res=document.getElementById('res');
+
+
+ 			res.value="Str1: "+str1.length+"  Str2: "+str2.length; 
+ 		}
+ 			function con() {
+ 			// body...
+ 			var str1=document.getElementById('str1').value;
+ 			var str2=document.getElementById('str2').value;
+ 			var res=document.getElementById('res');
+
+
+ 			res.value=str1+str2; 
+ 		}
+ 			function comp() {
+ 			// body...
+ 			var str1=document.getElementById('str1').value;
+ 			var str2=document.getElementById('str2').value;
+ 			var res=document.getElementById('res');
+ 			if(str1==str2)
+ 			{
+ 			res.value="Same";
+ 			}
+ 			else if(str1.length>=str2.length)
+ 			{
+ 			res.value="Str1 is greater than 2nd";
+ 			}else{
+ 				res.value="Str2 is greater than 1st";
+ 			}
+ 
+ 		}
+ 			function pos() {
+ 			// body...
+ 			var str1=document.getElementById('str1').value;
+ 			var str2=document.getElementById('str2').value;
+ 			var res=document.getElementById('res');
+ 			var index=str1.indexOf('str2');
+ 			if(index>-1)
+ 			{
+ 				res.value="Found at"+index;
+
+ 			}else{
+
+ 				res.value="404";
+
+ 			}
+ 
+ 		}
+ 			function upp() {
+ 			// body...
+ 			var str1=document.getElementById('str1').value;
+ 			var str2=document.getElementById('str2').value;
+ 			var res=document.getElementById('res');
+ 			res.value=str1.toUpperCase()+":Str2:"+str2.toUpperCase();
+ 
+ 		}
+ 			function low() {
+ 			// body...
+ 			var str1=document.getElementById('str1').value;
+ 			var str2=document.getElementById('str2').value;
+ 			var res=document.getElementById('res');
+ 			res.value=str1.toLowerCase()+":Str2:"+str2.toLowerCase();
+ 
+ 		}
+
+ 		function palin() {
+ 			// body...
+ 			var str1=document.getElementById('str1').value;
+ 			var str2=document.getElementById('str2').value;
+ 			var res=document.getElementById('res');
+ 			var reverse=str1.split("").reverse().join("");
+ 			alert(reverse);
+ 			if(str1==reverse)
+ 			{
+ 				res.value="PALINDROME";
+ 
+
+ 			}else{
+ 				res.value="Not a PALINDROME";
+ 
+
+ 			}
+
+ 		}
+ 	</script>
+ 	<title></title>
+ </head>
+ <body>
+ 	Enter String 1: <input type="text" name="" id="str1"><br><br>
+
+ 	Enter String 2: <input type="text" name="" id="str2"><br><br>
+ 	Result: <input type="" name="" id="res"><br><br>
+
+ 	<span>
+ 	<input type="Button" value="Palindrome" onclick="palin()">
+ 	<input type="Button" value="Length Calculation" onclick="cal()">
+ 	<input type="Button" value="Concatenation" onclick="con()">
+ 	<input type="Button" value="Comparison" onclick="comp()">
+ 	<input type="Button" value="Position" onclick="pos()">
+ 	<input type="Button" value="UpperCase" onclick="upp()">
+ 	<input type="Button" value="LowerCase" onclick="low()">
+ 	</span>
+</body></html>

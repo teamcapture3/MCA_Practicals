@@ -1,0 +1,54 @@
+<html>
+	<head> 
+		<title>
+			SEARCH ENGINE USING DATA STRUCTURE ALGORITHM
+		 </title>
+	</head>
+	<body>
+	<h1>Array : 33,31,12,41,29,48,49</h1>
+	<p id ="sorting">
+		<h1 id="h1" > </h1>
+		<h2 id="h2" > </h2>
+	</p>
+	<script>
+		function searchAndsort()
+		{
+		var target=document.getElementById("tar").value;
+		var array=[33,31,12,41,29,48,49];
+		var size=array.length;
+			for(var i=0;i<size-1;i++)
+			{
+				for(var j=i+1;j<size;j++)
+				{
+					if(array[i]>array[j])
+					{
+					var temp;
+					temp=array[i];
+					array[i]=array[j];
+					array[j]=temp;
+					}
+				}
+			}
+			var count=0;
+			for(var k=0;k<size;k++)
+			{
+				if(array[k]==target)
+				{
+				document.getElementById("h1").innerHTML="Target element found at index " + k;
+				count++;
+				}
+			}
+			if(count==0)
+			{
+				document.getElementById("h1").innerHTML="Target element Not found ";
+			}
+			array.toString();
+		document.getElementById("h2").innerHTML="Sorted Array : " + array;
+		}
+	</script>
+	<p>
+		<input type="text" id="tar" > </br> </br>
+		<input type="button" value="Search" onClick="searchAndsort()">
+	</p>
+	</body>
+</html>

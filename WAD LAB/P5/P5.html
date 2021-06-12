@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>Dynamic Select Statement</title>
+<script type="text/javascript">
+var Array1={ 
+	empty:["select"],
+	Grocery:["Oil","Pulses","Salt","Sugar"],
+	Fruit:["Apple","Banana","Grapes","Mango"] 
+};
+documet.getElementById("newArr").innerHTML=Array1;
+function stateChange(value)
+{
+	if(value.length==0)
+	{
+		document.getElementById("newArr").innerHTML="<option></option>";
+	}
+	else
+	{ 
+		var catoptions="";
+		for(id in Array1[value])
+		{ 
+			catoptions+="<option>"+Array1[value][id]+"</option>"
+		}
+		document.getElementById("newArr").innerHTML=catoptions;
+		document.getElementById("1").innerHTML="Category is "+value+" with sorted list of "+catoptions; 
+	} 
+}
+</script>
+</head>
+<body>
+<center>
+<h2>Dynamic Selection</h2>
+Category : <select id="state" onchange="stateChange(this.value);">
+<option value="empty">Select an option</option>
+<option value="Grocery">Grocery</option>
+<option value="Fruit">Fruit</option>
+</select><br/><br>
+<label>List :</label>
+<select id="newArr" size="4" disabled="true">
+<option value="">select</option>
+</select><br><br>
+<label id="1"></label>
+</center>
+</body>
+</html>
