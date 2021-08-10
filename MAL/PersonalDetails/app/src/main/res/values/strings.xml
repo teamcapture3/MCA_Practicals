@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Personal Details</string>
+    <string name="text_details">Provide Your Details</string>
+    <string name="input_name">Name: </string>
+    <string name="input_age">Age: </string>
+    <string name="input_gender">Gender: </string>
+    <string name="input_male">Male</string>
+    <string name="input_female">Female</string>
+    <string name="input_rate">Rate Us: </string>
+    <string name="agreement">I agree that details provided by me are valid.</string>
+    <string name="btn_submit">Submit</string>
+    <string name="info_details">Your Details</string>
+    <string name="ratings">Ratings: </string>
+    <string name="valid_details">Valid: </string>
+</resources>
