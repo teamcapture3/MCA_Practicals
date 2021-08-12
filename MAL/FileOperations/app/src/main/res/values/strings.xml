@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">File Operations</string>
+    <string name="file_content">Enter contents in the file</string>
+    <string name="write">Write</string>
+    <string name="create">Create</string>
+    <string name="read">Read</string>
+    <string name="delete">Delete</string>
+    <string name="read_content">Read the contents of the file</string>
+</resources>
