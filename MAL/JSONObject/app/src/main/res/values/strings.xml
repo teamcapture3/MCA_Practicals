@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">JSONObject</string>
+    <string name="emp_data">Employee Details</string>
+    <string name="fetch">Fetch Employee Details</string>
+    <string name="fetch_hint">Employee Data Will Fetched Here</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">VolleyLib</string>
+    <string name="emp_details">Employee Details</string>
+    <string name="emp_request">Request Employees Data</string>
+</resources>
