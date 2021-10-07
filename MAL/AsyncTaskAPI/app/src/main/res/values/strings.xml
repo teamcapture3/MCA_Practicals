@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AsyncTask API</string>
+    <string name="company">Company: </string>
+    <string name="model">Model: </string>
+    <string name="date">Date: </string>
+    <string name="price">Price: </string>
+    <string name="data">Fetch &amp; Display Data</string>
+</resources>
