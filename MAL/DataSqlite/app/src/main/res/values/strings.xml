@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DataSqlite</string>
+    <string name="details">Employees Details</string>
+    <string name="name">Name</string>
+    <string name="contact">Contact</string>
+    <string name="date">Date of birth</string>
+    <string name="add">Add</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="view">View</string>
+</resources>
